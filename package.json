@@ -1,0 +1,23 @@
+{
+  "name": "trash.anaitgames.com",
+  "version": "1.0.0",
+  "description": "Just trash",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules\\.bin\\browser-sync start --server --files '*.css, *.html'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kungfunk/trash.anaitgames.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kungfunk/trash.anaitgames.com/issues"
+  },
+  "homepage": "https://github.com/kungfunk/trash.anaitgames.com#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
