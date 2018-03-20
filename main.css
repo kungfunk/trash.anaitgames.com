@@ -1,0 +1,28 @@
+:root {
+    --lightgrey: #eee;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    height: 100vh;
+}
+
+.side-menu__items {
+    list-style: none;
+    margin: 50px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.side-menu__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.nav-bar {
+    border-bottom: 1px solid var(--lightgrey);
+}
+
+.main__container {
+    padding: 20px;
+}
