@@ -1,14 +1,31 @@
 :root {
-    --lightgrey: rgb(238, 239, 243);
+    --lightgrey: rgb(219, 223, 234);
     --hardgrey: rgb(123, 133, 148);
-    --background: rgb(236, 242, 246);
+    --background: rgb(231, 234, 241);
     --text: rgb(78, 81, 94);
+    --sub-text: rgb(160, 163, 177);
     --primary: rgb(228, 68, 69);
+    --positive: green;
+    --negative: red;
+}
+
+html {
+    font-size: 16px;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 button {
@@ -64,6 +81,7 @@ button {
 
 .top-search__field {
     border: 0;
+    outline: none;
     padding: 20px 10px 20px;
     width: 100%;
 }
@@ -72,6 +90,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 62px;
     border-bottom: 1px solid var(--lightgrey);
+    background-color: white;
 }
 
 .nav-bar__logoff {
@@ -84,6 +103,6 @@ button {
     color: var(--hardgrey);
 }
 
-.main__container {
-    padding: 20px;
+.main {
+    background-color: var(--background)
 }
