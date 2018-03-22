@@ -37,7 +37,6 @@
     font-size: var(--font-size-small);
 }
 
-
 .dashboard-boxes {
     display: grid;
     grid-template-columns: 1fr 1fr;
