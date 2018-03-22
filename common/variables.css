@@ -1,0 +1,20 @@
+:root {
+    /* colors */
+    --color-white: rgb(255, 255, 255);
+    --color-whitefade: rgba(255, 255, 255, .3);
+    --color-lightgrey: rgb(219, 223, 234);
+    --color-hardgrey: rgb(123, 133, 148);
+    --color-background: rgb(231, 234, 241);
+    --color-text: rgb(78, 81, 94);
+    --color-subtext: rgb(160, 163, 177);
+    --color-primary: rgb(228, 68, 69);
+    --color-positive: green;
+    --color-negative: red;
+
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-medium: .9rem;
+    --font-size-small: .7rem;
+    --font-size-big: 1.25rem;
+    --font-size-super: 3.75rem;
+}

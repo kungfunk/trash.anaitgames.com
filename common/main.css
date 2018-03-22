@@ -1,21 +1,10 @@
-:root {
-    --lightgrey: rgb(219, 223, 234);
-    --hardgrey: rgb(123, 133, 148);
-    --background: rgb(231, 234, 241);
-    --text: rgb(78, 81, 94);
-    --sub-text: rgb(160, 163, 177);
-    --primary: rgb(228, 68, 69);
-    --positive: green;
-    --negative: red;
-}
-
 html {
-    font-size: 16px;
+    font-size: var(--font-size-base);
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: var(--text);
+    color: var(--color-text);
 }
 
 h1,
@@ -28,10 +17,6 @@ img {
     max-width: 100%;
 }
 
-button {
-    cursor: pointer;
-}
-
 .content {
     display: grid;
     grid-template-columns: 80px 1fr;
@@ -39,7 +24,7 @@ button {
 }
 
 .side-menu {
-    background-color: var(--primary);
+    background-color: var(--color-primary);
 }
 
 .side-menu__items {
@@ -50,23 +35,23 @@ button {
 }
 
 .side-menu__item {
-    color: rgba(255, 255, 255, .3);
+    color: var(--color-whitefade);
     position: relative;
     margin-bottom: 20px;
 }
 
 .side-menu__item svg {
     border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, .3);
+    border: 2px solid var(--color-whitefade);
     padding: 5px;
 }
 
 .side-menu__item--selected {
-    color: white;
+    color: var(--color-white);
 }
 
 .side-menu__item--selected svg {
-    border-color: white;
+    border-color: var(--color-white);
 }
 
 .top-search {
@@ -76,7 +61,7 @@ button {
 }
 
 .top-search__icon {
-    color: var(--hardgrey);
+    color: var(--color-hardgrey);
 }
 
 .top-search__field {
@@ -89,20 +74,20 @@ button {
 .nav-bar {
     display: grid;
     grid-template-columns: 1fr 62px;
-    border-bottom: 1px solid var(--lightgrey);
-    background-color: white;
+    border-bottom: 1px solid var(--color-lightgrey);
+    background-color: var(--color-white);
 }
 
 .nav-bar__logoff {
     border: 0;
-    border-left: 1px solid var(--lightgrey);
+    border-left: 1px solid var(--color-lightgrey);
     background-color: transparent;
 }
 
 .nav-bar__logoff svg {
-    color: var(--hardgrey);
+    color: var(--color-hardgrey);
 }
 
 .main {
-    background-color: var(--background)
+    background-color: var(--color-background)
 }
