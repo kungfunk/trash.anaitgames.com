@@ -65,6 +65,15 @@
     grid-template-columns: auto 1fr auto;
 }
 
+.simplelist__item-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.simplelist__item-link:hover {
+    text-decoration: underline;
+}
+
 .simplelist__item-date {
     color: var(--color-subtext);
     text-transform: uppercase;
