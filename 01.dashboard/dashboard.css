@@ -78,13 +78,6 @@
     text-decoration: underline;
 }
 
-.simplelist__item-date {
-    color: var(--color-subtext);
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: var(--font-size-small);
-}
-
 .simplelist__item:last-child {
     border: 0;
 }

@@ -26,13 +26,6 @@
     color: var(--color-subtext);
 }
 
-.comment__date {
-    color: var(--color-subtext);
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: var(--font-size-small);
-}
-
 .comment__postlink {
     color: var(--color-text);
     text-decoration: none;
@@ -45,6 +38,7 @@
 .comment__body {
     margin-top: 5px;
     line-height: 1.4;
+    font-size: var(--font-size-small);
 }
 
 .comment__actions {
