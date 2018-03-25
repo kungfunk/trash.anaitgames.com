@@ -1,0 +1,19 @@
+.users {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.users__filters {
+    background-color: rgb(40, 44, 55);
+    padding: 40px;
+}
+
+.users__filter-separator {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+}
+
+.users__results {
+    padding: 30px;
+}

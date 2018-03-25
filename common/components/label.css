@@ -5,3 +5,7 @@
     padding: 3px 8px;
     border-radius: 3px;
 }
+
+.label--negative {
+    background: var(--color-negative);
+}
