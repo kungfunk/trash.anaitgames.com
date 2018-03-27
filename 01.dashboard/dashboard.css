@@ -5,8 +5,12 @@
     padding: 30px;
 }
 
-.dashboard-boxes__container--doble {
-    grid-column: 1 / span 2;
+.dashboard-comments {
+    padding: 0 30px 30px;
+}
+
+.dashboard-comments__title {
+    margin-bottom: 20px;
 }
 
 .simplelist {
