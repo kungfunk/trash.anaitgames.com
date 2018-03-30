@@ -4,9 +4,17 @@
     border-collapse: collapse;
 }
 
+.datatable--top-aligned tbody {
+    vertical-align: top;
+}
+
 .datatable__header {
     color: var(--color-hardgrey);
     font-size: var(--font-size-small);
+}
+
+.datatable__header .datatable__link {
+    white-space: nowrap;
 }
 
 .datatable__row {
@@ -19,8 +27,8 @@
 }
 
 .datatable__cell {
-    height: 40px;
-    padding: 0 10px;
+    height: 30px;
+    padding: 5px 10px;
 }
 
 .datatable__cell--avatar {

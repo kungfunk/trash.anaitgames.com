@@ -3,17 +3,6 @@
     grid-template-columns: auto 1fr;
 }
 
-.posts__filters {
-    background-color: rgb(40, 44, 55);
-    padding: 40px;
-}
-
-.posts__filter-separator {
-    border: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
-    margin-bottom: 20px;
-}
-
 .posts__results {
     padding: 30px;
 }
