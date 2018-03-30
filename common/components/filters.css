@@ -1,48 +1,48 @@
-.filters-pannel {
+.c-filters-pannel {
     background-color: rgb(40, 44, 55);
     padding: 40px;
 }
 
-.filters-pannel__separator {
+.c-filters-pannel__separator {
     border: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .02);
     border-top: 1px solid rgba(0, 0, 0, .2);
     margin-bottom: 20px;
 }
 
-.filters {
+.c-filters {
     width: 200px;
 }
 
-.filters__title {
+.c-filters__title {
     font-weight: bold;
 }
 
-.filters__title-icon {
+.c-filters__title-icon {
     float: right;
     margin-bottom: -2px;
 }
 
-.filters__list {
+.c-filters__list {
     list-style: none;
     margin: 20px -15px;
     padding: 0;
 }
 
-.filter {
+.c-filter {
     padding: 10px 15px;
     border-radius: 3px;
 }
 
-.filter--selected {
+.c-filter--selected {
     color: var(--color-white);
     background-color: rgba(0, 0, 0, .2);
 }
 
-.filter__name {
+.c-filter__name {
     text-decoration: none;
 }
 
-.filter__number {
+.c-filter__number {
     float: right;
 }

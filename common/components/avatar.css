@@ -1,4 +1,4 @@
-.avatar {
+.c-avatar {
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.avatar--big {
+.c-avatar--big {
     width: 40px;
     height: 40px;
 }

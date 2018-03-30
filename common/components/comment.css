@@ -1,4 +1,4 @@
-.comments {
+.c-comments {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
     background-color: var(--color-lightgrey);
 }
 
-.comment {
+.c-comment {
     position: relative;
     font-size: var(--font-size-medium);
     display: grid;
@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 
-.comment--reported:after {
+.c-comment--reported:after {
     position: absolute;
     content: 'Reportado';
     background-color: var(--color-warning);
@@ -33,45 +33,45 @@
 
 }
 
-.comment__header {
+.c-comment__header {
     display: grid;
     grid-template-columns: 1fr auto;
 }
 
-.comment__realname {
+.c-comment__realname {
     font-weight: bold;
 }
 
-.comment__username {
+.c-comment__username {
     color: var(--color-subtext);
 }
 
-.comment__postlink {
+.c-comment__postlink {
     color: var(--color-text);
     text-decoration: none;
 }
 
-.comment__postlink:hover {
+.c-comment__postlink:hover {
     text-decoration: underline;
 }
 
-.comment__container {
+.c-comment__container {
     position: relative;
 }
 
-.comment__body {
+.c-comment__body {
     margin-top: 5px;
     line-height: 1.4;
     font-size: var(--font-size-small);
     margin-bottom: 40px;
 }
 
-.comment__text-break {
+.c-comment__text-break {
     font-style: italic;
     color: var(--color-hardgrey);
 }
 
-.comment__actions {
+.c-comment__actions {
     position: absolute;
     text-align: right;
     font-size: var(--font-size-small);

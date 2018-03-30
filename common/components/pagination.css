@@ -1,11 +1,11 @@
-.pagination {
+.c-pagination {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.pagination__page,
-.pagination__gap {
+.c-pagination__page,
+.c-pagination__gap {
     color: var(--color-text);
     display: inline-block;
     line-height: 1.2;
@@ -17,12 +17,12 @@
     border-radius: 3px;
 }
 
-.pagination__gap,
-.pagination__page--selected {
+.c-pagination__gap,
+.c-pagination__page--selected {
     border: 0;
 }
 
-.pagination__link {
+.c-pagination__link {
     cursor: pointer;
     text-decoration: none;
 }
